@@ -7,13 +7,13 @@
 class Emeraldian < Formula
   desc "Terminal UI for Obsidian vaults, with a graph and an assistant"
   homepage "https://github.com/iamrohithrnair/emeraldian"
-  version "0.10.1"
+  version "0.10.2"
   license "GPL-3.0-or-later"
 
   on_macos do
     on_arm do
-      url "https://github.com/iamrohithrnair/emeraldian/releases/download/v0.10.1/emeraldian-aarch64-apple-darwin.tar.gz"
-      sha256 "129229e24157a60c07129a2d73dfad1eb654a605ee0eca80f62cc1a8843af23b"
+      url "https://github.com/iamrohithrnair/emeraldian/releases/download/v0.10.2/emeraldian-aarch64-apple-darwin.tar.gz"
+      sha256 "b77636732043b932b4c16e840d291d205670169f384d38da120d57f7dfeb83fd"
     end
     on_intel do
       # Apple silicon only; Intel Macs build from source.
@@ -23,12 +23,12 @@ class Emeraldian < Formula
 
   on_linux do
     on_arm do
-      url "https://github.com/iamrohithrnair/emeraldian/releases/download/v0.10.1/emeraldian-aarch64-unknown-linux-gnu.tar.gz"
-      sha256 "3d141741a91ec1f1d607cb5a950150d58ab67353fc31af90d5f86468af636b46"
+      url "https://github.com/iamrohithrnair/emeraldian/releases/download/v0.10.2/emeraldian-aarch64-unknown-linux-gnu.tar.gz"
+      sha256 "0ae157573722adfb5fd13578d7c5b101bb6acad22f53849460858f04b8ac35ef"
     end
     on_intel do
-      url "https://github.com/iamrohithrnair/emeraldian/releases/download/v0.10.1/emeraldian-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "10b8b23e131f4f06ab4871379fec9a7b3e529b99db2f6a501799fcf23bcaec3d"
+      url "https://github.com/iamrohithrnair/emeraldian/releases/download/v0.10.2/emeraldian-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "de7d149b8284509617411c614a83ba7f54ee6d80ef5e346b5247580231dad576"
     end
   end
 
